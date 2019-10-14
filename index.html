@@ -1,0 +1,44 @@
+<head>
+    
+    <link rel = "stylesheet" type="text/css" href="css/style.css">
+    <link rel = "stylesheet" href = "css/jquerymobile/jquery.mobile-1.4.5.css">
+    <link rel = "stylesheet" href = "css/jquerymobile/jquery.mobile.external-png-1.4.5.css">
+    <link rel = "stylesheet" href = "css/jquerymobile/jquery.mobile.icons-1.4.5.css">
+    <link rel = "stylesheet" href = "css/jquerymobile/jquery.mobile.inline-png-1.4.5.css">
+    <link rel = "stylesheet" href = "css/jquerymobile/jquery.mobile.inline-svg-1.4.5.css">
+    <link rel = "stylesheet" href = "css/jquerymobile/jquery.mobile.structure-1.4.5.css">
+    <link rel = "stylesheet" href = "css/jquerymobile/jquery.mobile.theme-1.4.5.css">
+    <link rel = "stylesheet" href = "css/font-awesome/css/font-awesome.css">
+    
+    <script src = "js/jquery-2.0.0.min.js"></script>
+    <script src = "js/jquery.mobile-1.4.5.min.js"></script>
+    <script src = "js/script.js"></script>
+    <script src = "js/music-handler.js"></script>
+
+</head>
+
+<body>
+    
+    <div id="overlay">
+        <button id="on-start" class="ui-btn ui-btn-b">Play</button>   
+    </div>
+    
+    <div data-role="page">
+        
+        <canvas id="c"></canvas>
+            
+        <div id="footer" data-role="footer" data-position="fixed" data-tap-toggle="false">
+                       
+            <!-- play/pause button -->
+            <div class="footer-icon-div">
+                <i id="play-button" class="footer-icon fa fa-play" aria-hidden="true"></i> <!-- fa fa-pause -->
+            </div>
+                        
+            <!-- scrubber -->
+            <div id="timeline">
+                <div id="playhead"></div>
+            </div>
+            
+        </div>
+    </div>
+</body>

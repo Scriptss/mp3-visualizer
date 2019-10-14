@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+body, html{
+	position: relative;
+	margin: 0;
+    background-color: black;
+}
+
+#c{
+  font-family: font-family: 'Pacifico', cursive;
+  position: absolute;
+  cursor: pointer;
+  z-index: 0;
+}
+
+
+#footer {
+    height:50px;
+    z-index:5;
+    background-color: #040404d1 !important;
+    border-color: #0000 !important;
+}
+
+.footer-icon {
+    display: inline-block !important;
+    line-height: 50px !important;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: white;
+}
+
+.footer-icon-div {
+    float:left;
+    width: 6%;
+    height: 100%;
+    font-size: 2em;
+}
+
+#timeline{
+    width: 90%;
+    height: 20px;
+    background: #4a4a4a;
+    margin-top: 16px;
+    float: left;
+    border-radius: 15px;
+    margin-left: 10px;
+}
+
+#playhead{
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    margin-top: 1px;
+    background: rgba(255, 255, 255, 0.82);
+}
+
+
+#overlay {
+    z-index: 4;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 550px;
+    background-color: #000000f7;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
